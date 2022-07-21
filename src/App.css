@@ -1,0 +1,749 @@
+header{
+  width: 100%;
+  background: url('./assets/d5984956d31d491fa815.jpg');
+  background-position: center;
+  height: 650px;
+  /* margin-top: 70px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+
+}
+
+.MYHOME{
+  max-width: 150% !important;
+  width: 102% !important;
+}
+.my_card{
+  border-bottom: 5px solid rgb(202,15,95) !important;
+  box-shadow: 2px 2px 5px rgb(177, 177, 177);
+  transition: 0.2s;
+  max-width: 250px;
+  margin: 20% 1% 1% 1% !important;
+  font-family: arial;
+}
+
+.my_card:hover{
+  box-shadow: 10px 10px 10px rgb(177, 177, 177);
+  border-bottom: 5px solid rgb(255, 166, 0) !important;
+  transform: scale(1.05);
+}
+
+.HeaderText{
+  background-color: rgba(255, 217, 0, 0.082);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeaderText h1{
+  font-size: 50px;
+  color: var(--goldColor);
+  font-weight: bolder;
+  padding: 5px;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+.HeaderText p{
+  margin-top: 10px;
+  color: var(--goldColor);
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.navbar-brand{
+  padding: 0 !important;
+}
+
+.navBar{
+  margin-left: 2%;
+  padding: 3px !important;
+}
+
+.navBar a{
+  margin-right: 25px;
+
+}
+
+.icons{
+  margin-right: 10px;
+  margin: 10px;
+}
+
+.SearchBox{
+  width: 65%;
+  height: auto;
+  background-color: var(--goldColor);
+  padding: 20px;
+  justify-content: space-between !important;
+  /* border-radius: 2%; */
+}
+
+.form-select{
+  margin-top: 10% !important;
+}
+
+/* .btn{
+  margin-top: 10% !important;
+  width: 140px;
+} */
+
+.row{
+  margin-right: calc(-3 * var(--bs-gutter-x)) !important;
+}
+
+.IconButton{
+    color: var(--whiteColor);
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    background-color: var(--goldColor);
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 1px 7px 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+}
+
+
+
+
+
+
+
+/* *************************************************************************************** */
+/* *************************************************************************************** */
+/* *************************************************************************************** */
+/* *************************************************************************************** */
+
+
+
+
+:root{
+  --mainColor: #04091e;
+  --whiteColor: white;
+  --blackColor: black;
+  --lightDark: #222;
+  --myyellow:#ff9902  ;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-flat{
+  background-color:#ff9902 !important;
+  color: white !important;
+}
+
+.row{
+  width: 98% !important;
+}
+
+.Footer{
+  /* position:absolute; */
+left:0;
+bottom:0;
+right:0;
+background-color: var(--mainColor);
+color: white;
+padding-top: 2%;
+font-size: small;
+padding-bottom: 5%;
+padding-left: 5% !important;
+}
+
+ul{
+  list-style-type: none;
+  text-align: start;
+  padding-left: 1% !important;
+}
+
+h2{
+  text-align: start;
+}
+
+
+
+li{
+  padding-top: 2%;
+  align-self: flex-start;
+}
+
+li:hover{
+  text-decoration: underline;
+}
+
+.SocialMediaIcons ul{
+    white-space: nowrap;
+}
+.SocialMediaIcons ul li{
+  display: inline-block;
+  margin-right: 5% !important;
+}
+
+.ResponseFoot{
+  display:"flex";
+  justify-content:"space-around";
+  padding-left:0
+
+}
+
+.JobCard {
+  width: 60% !important;
+  box-shadow: 0 4px 8px 0 rgba(34, 34, 34, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 2%;
+  margin-bottom: 3%;
+  padding-right: 0% !important;
+  border-radius: 12px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  
+}
+
+.Job-card-btn{
+  background-color:#ff9902;
+  align-self:end;
+  height:25% !important;
+  width: 40%;
+  margin: 15px;
+
+}
+
+.Job-time-card-btn{
+  background-color:rgb(2, 35, 95) !important;
+  align-self:end;
+  height:25% !important;
+  width: 40%;
+  margin: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .HeaderText h1{
+
+    font-size: 40px !important;
+  }
+  header{
+    height: 380px !important;
+  }
+  .JobCard{
+    width: 90% !important;
+    margin-bottom: 5% !important;
+
+  }
+  .Job-card-btn{
+    /* height:30% !important; */
+    width: 65%;
+    margin: 10px;
+    font-size: small !important;
+  
+  }
+  .Job-time-card-btn{
+    /* height:25% !important; */
+    width: 65%;
+    margin: 10px;
+    font-size: small !important;
+  
+  }
+.ImgandDetail img{
+  width: 100%;
+}
+
+.JobTitle-and-Button img{
+  width: 100% !important;
+}
+
+.Summary{
+  margin-left: 1% !important;
+  width: 98%;
+  margin-top: 5% !important;
+  font-size: 90% ;
+}
+
+.Share{
+  margin-left: 1% !important;
+  width: 98% !important;
+  margin-top: 5% !important;
+  font-size: 90% ;
+}
+
+.Responsibilities ul{
+  margin-left: 8% !important;
+}
+
+.EducationExperience ul{
+  margin-left: 8% !important;
+}
+
+.OtherBenefits ul{
+  margin-left: 8% !important;
+}
+
+.see-more-btn{
+
+  width: 35% !important;
+  
+
+}
+
+
+.category-img{
+  width: 55% !important;
+  height: 80% !important;
+}
+
+.category-row >.col{
+  /* margin: 1%; */
+  margin-bottom: 12% !important;
+}
+
+.post-form{
+  margin-left: 8% !important;
+  margin-right: 8% !important;
+  margin-bottom: 10%;
+
+}
+.form-row >.col-sm-3{
+  margin-bottom: 5px !important;
+
+}
+
+.contact_form{
+  margin: 3% 20% 3% 20% !important;
+
+}
+
+.BTN{
+  width: 40% !important;
+}
+
+
+
+
+.Contact-Socialmedia >.col{
+  /* margin: 2px !important; */
+  /* padding: 0% !important; */
+  /* max-width: 65% !important; */
+  width: 100% !important;
+  margin-left: 0% !important;
+  
+  
+}
+
+.Contact-Icons-div{
+  /* text-align: -webkit-center ; */
+  margin-right: 15%;
+}
+
+
+}
+
+.JobCard .row .col .row{
+  width: max-content;
+  text-align: start;
+  padding: 1%;
+}
+
+.JobCard .row .col .row .col{
+  min-width: max-content !important
+}
+ 
+
+.row >*{
+  padding-right: 0% !important;
+}
+
+.JobCard .row .btnCol{
+  text-align: right !important;
+}
+
+/* .JobCard .row .col{
+  border: 2px solid yellow;
+  text-align: start;
+} */
+
+/* .JobCardIcon{
+width: fit-content !important;
+border: 2px solid blue;
+} */
+
+.SingleJob{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.JobTitle-and-Button{
+  padding-left: 5px;
+}
+
+.Job-Image{
+  border:2px solid LightGrey;
+  padding:0%;
+  border-radius:5%
+}
+.Logo-Company{
+  width: 100% !important;
+  height: 100% !important;
+  margin-left: -10;
+}
+
+/* .titleandsubtitles .row .col{
+  width: 100% !important;
+} */
+
+.ImgandDetail{
+  margin-top: 5% !important;
+
+}
+
+.ImgandDetail .col{
+  margin: 0% !important;
+
+}
+
+.Summary .row{
+  display: flow-root;
+  margin-bottom: 2%;
+  
+}
+
+.Summary{
+  border:1px solid #ff9902;
+  box-shadow: 1px 3px 5px 1px #ff9902;
+  padding:2.5%;
+  margin-bottom: 10%;
+  padding-bottom: 15%;
+  width: 110% ;
+}
+
+.Share{
+  border:1px solid #ff9902;
+  box-shadow: 1px 3px 5px 1px #ff9902;
+  padding:5%;
+  margin-bottom: 10%;
+
+}
+
+.Share ul li{
+  display: inline-block;
+  margin-right: 6% !important;
+}
+
+.Share ul li :hover{
+ color:#ff9902
+}
+
+.JobDescription{
+  margin-top: 5% !important;
+}
+
+.JobDescription h3{
+  color: #ff9902;
+  margin-bottom: 2%;
+}
+
+.JobDescription p{
+  width: 80%;
+}
+
+.Responsibilities{
+  margin-top: 5% !important;
+}
+
+.Responsibilities h3{
+  color: #ff9902;
+  margin-bottom: 2%;
+}
+
+.Responsibilities ul{
+  margin-left: 2%;
+}
+
+.Responsibilities ul li{
+  /* list-style-image: url("./Assests/icons8-check-circle.svg"); */
+  size: 10px;
+}
+
+.EducationExperience{
+  margin-top: 5% !important;
+}
+
+.EducationExperience h3{
+  color: #ff9902;
+  margin-bottom: 2%;
+}
+
+.EducationExperience ul{
+  margin-left: 2%;
+}
+
+.EducationExperience ul li{
+  /* list-style-image: url("./Assests/icons8-check-circle.svg"); */
+  size: 10px;
+}
+
+.OtherBenefits{
+  margin-top: 5% !important;
+}
+
+.OtherBenefits h3{
+  color: #ff9902;
+  margin-bottom: 2%;
+}
+
+.OtherBenefits ul{
+  margin-left: 2%;
+}
+
+.OtherBenefits ul li{
+  /* list-style-image: url("./Assests/icons8-check-circle.svg"); */
+  size: 10px;
+}
+
+.home-heading{
+  color: #ff9902;
+  text-align: center;
+  margin: 4%;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.about-heading{
+  color: #ff9902;
+  text-align: center;
+  margin: 4%;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search-btn{
+  margin-top:10%;
+  width:70%
+}
+.see-more-div{
+  text-align: center;
+  margin: 6%;
+
+}
+.see-more-btn{
+  color: white;
+  background-color:#ff9902;
+  align-self:end;
+  height:30% !important;
+  width: 25%;
+}
+
+.category-img{
+  width: 45%;
+  height: 85%;
+
+}
+
+.category-row{
+  text-align: -webkit-center;
+  margin-top: 6% !important;
+}
+
+.category-row >.col{
+  /* margin: 1%; */
+  margin-bottom: 3%;
+}
+.category-row >.col :hover{
+  /* margin: 1%; */
+  margin-bottom: 3%;
+  border: 2px solid #ff9902;
+  border-radius: 10px;
+}
+
+.post-form{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+  margin-top: 8%;
+
+  
+
+}
+
+.form-row{
+  margin-bottom: 5%;
+  font-weight:540;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+}
+
+
+/* About and Contact  */
+
+.descr-heading{
+  color: rgb(2, 35, 95) ;
+  text-align: center;
+  margin: 3%;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 5%;
+}
+
+.about-desc-row{
+  text-align: center;
+}
+
+.col-heading{
+  color: rgb(2, 35, 95) ;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 140%;
+}
+
+.about-desc-col{
+  margin: 2%;
+}
+
+.col-heading >p{
+  color: #000000 !important;
+  font-size: medium;
+  font-weight: 100;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact_form{
+  margin: 3% 35% 3% 35%;
+  border: 3px solid #ff9902;
+  border-radius: 5%;
+  box-shadow: 23px 20px 18px -8px rgba(0,0,0,0.77);
+-webkit-box-shadow: 23px 20px 18px -8px rgba(0,0,0,0.77);
+-moz-box-shadow: 23px 20px 18px -8px rgba(0,0,0,0.77);
+padding: 2% 0% 2% 0%;
+
+}
+
+.form-group{
+  margin: 5% 10% 5% 10%;
+  color: #ff9902;
+  font-weight: 500;
+  width: 80%;
+  font-size: large;
+}
+
+.BTN{
+  background-color:#ff9902 !important;
+  height:30% !important;
+  width: 20%;
+  margin-left: 10%;
+  margin-bottom: 3%;
+  transition-duration: 0.4s;
+}
+
+.BTN:hover{
+  background-color: #04091e !important;
+  color: white !important;
+}
+
+.contact_bg{
+  /* background-image: url("https://i1.wp.com/orlandocabrera.com/wp-content/uploads/2013/12/contactform-background-32.jpg?ssl=1"); */
+  /* background-image: url("https://img.freepik.com/free-photo/wooden-block-cube-with-telephone-email-address-copyspace_20693-207.jpg?w=740g"); */
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* height:2000px; */
+  padding: 0.005% 0% 1% 0%;
+}
+.Contact-Socialmedia{
+  margin-top:8% !important;
+  /* width: 50% !important; */
+  margin-bottom: 10% !important;
+  /* width: 50% !important; */
+  /* text-align: -webkit-center; */
+  /* margin-left: 30% !important; */
+
+
+
+  
+}
+
+.Contact-Socialmedia >h2{
+  text-align: center;
+  margin-left: -3%;
+  color: #ff9902;
+}
+
+.Contact-Socialmedia >.col{
+  max-width: fit-content !important;
+  margin-left: 15%;
+  
+  
+}
+
+
+
+.Contact-Icons-div{
+  text-align: -webkit-center ;
+  
+}
+
+.pagination{
+  justify-content: center !important;
+  -webkit-text-fill-color: #ff9902;
+  
+}
+
+.page-item.active .page-link {
+
+  background-color:#142050 !important;
+  border-color: #142050 !important;
+}
+
+.Select{
+  padding: 1%;
+
+}
+
+.jobPost_bg{
+  /* background-image: url("https://i1.wp.com/orlandocabrera.com/wp-content/uploads/2013/12/contactform-background-32.jpg?ssl=1"); */
+  /* background-image: url("https://api.asm.skype.com/v1/objects/0-sa-d2-37d15efbb815d5957ef6fcdb88061b88/views/imgpsh_fullsize_anim"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height:2000px; */
+  padding: 0.005% 0% 1% 0%;
+}
